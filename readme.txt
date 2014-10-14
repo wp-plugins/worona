@@ -1,7 +1,7 @@
 === Worona - Transform your WordPress blog into a native mobile app (iOS, Android) ===
 Contributors: Benuit
 Donate link: -
-Tags: worona, app, mobile, iOS, android, store, google, play, mobile, native, free, mobile theme, iphone, ipad, smartphones, web app, webapp, theme, ipod, generator, push, notifications, tablet, windows, 
+Tags: admob, android, app, blackberry, blackberry 10, free, generator, app generator, google, iOS, ios app, ipad, ipad app, iphone, iphone app, ipod, mobapper, mobile, mobile app, mobile plugin, mobile theme, mobile web, mobile website, native, native app, notifications, play, push, responsive, smartphones, store, tablet, theme, web app, webapp, windows, windows mobile, wordpress mobile, worona
 Requires at least: 3.0.1
 Tested up to: 4.0
 Stable tag: 0.6.2
