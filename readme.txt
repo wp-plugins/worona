@@ -33,18 +33,18 @@ We believe that Worona will be used as a standard to easily create native apps s
 Once the plugin is installed, visit our <a href="http://docs.worona.org/worona-installation-guide/">installation guide</a> to help you build your app. 
 
 **Any questions?**
-Contact us at <a href="mailto:hola@worona.org">hola@worona.org</a>.
+Contact us at <a href="mailto:hello@worona.org">hello@worona.org</a>.
 
 == Frequently Asked Questions ==
 
 = Is it free? Where is the trick? =
 
-There is no trick. Worona is free and open source. It will always be. We sell additional services like <a href="http://www.worona.org/services">quality hosting</a>, <a href="http://www.worona.org/services">uploading your app</a> to the App Store and Google Play or <a href="http://www.worona.org/extensions">premium extensions</a>, but you can always host it in other servers, upload it to the stores yourself and create your own plugins or use the free ones we or other people provide.
+There is no trick. Worona is free and open source. It will always be. We sell additional services like <a href="http://www.worona.org/hosting">quality hosting</a>, <a href="http://www.worona.org/publish">uploading your app</a> to the App Store and Google Play or <a href="http://www.worona.org/extensions">premium extensions</a>, but you can always host it in other servers, upload it to the stores yourself and create your own plugins or use the free ones we or other people provide.
 
 = Do I have to compile the app myself? =
 
 If you want to upload your app to the app markets yourself, you have to compile it yourself, but it's an easy task which doesn't need any coding knowledge. You just have to follow some simple steps and we provide you with a comprehensive guide to do so. 
-If you want us to <a href="http://www.worona.org/services">upload your app</a> to the App Store and Google Play for you, we will take care of all the process, so you don't have to worry about compiling :).
+If you want us to <a href="http://www.worona.org/publish">upload your app</a> to the App Store and Google Play for you, we will take care of all the process, so you don't have to worry about compiling :).
 
 == Screenshots ==
 
