@@ -28,8 +28,8 @@ Worona Plugin is pretty easy. In this first release, the plugin takes all the po
 
 If you want to see how this looks like just check our demo App:
 
-* **Android**: <a href="https://play.google.com/store/apps/details?id=org.worona.android.worona_blog" target="_blank">https://play.google.com/store/apps/details?id=org.worona.android.worona_blog</a>
-* **iOS**: <a href="https://itunes.apple.com/us/app/worona-blog/id918477223" target="_blank">https://itunes.apple.com/us/app/worona-blog/id918477223</a>
+* **Android**: <a href="https://play.google.com/store/apps/details?id=org.worona.android.worona_blog" target="_blank">play.google.com - Worona</a>
+* **iOS**: <a href="https://itunes.apple.com/us/app/worona-blog/id918477223" target="_blank">itunes.apple.com - Worona</a>
 
 There you have our <a href="https://www.worona.org/blog" target="_blank">blog</a> converted into a native App.
 
@@ -54,6 +54,7 @@ If you detect any problem with other devices o platforms, please drop us a line 
 For the moment we only support "posts", but we know that "custom content" and "pages" are really important for you. Our plan is to support them before we launch the 1.0 version.
 
 Our plans:
+
 * Navigation menu.
 * Support pages.
 * Support custom content.
