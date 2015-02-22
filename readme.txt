@@ -13,18 +13,18 @@ Build a native mobile app of your WordPress blog. Fast, easy and free.
 
 == Description ==
 
-<h2>Transform your blog into a Native App</h2>
+<h3>Transform your blog into a Native App</h3>
 
 Worona Plugin is pretty easy. In this first release, the plugin takes all the posts from your site, and presents them into an app. All this process is fully covered in our <a href="https://www.worona.org/start/" target="_blank">installation guide</a>. We have tried to make it as visual and simple as possible, but we love to hear your ideas to improve it!
 
 
-<h2>Read first:</h2>
+<h3>Read first:</h3>
 * Worona is and will always be free.
 * If you're planning to publish your App you’ll need an iOS developer Account ($99 / year) and a Google Developer Account ($35).
 * That money is not for us, but for Apple and Google. **There is no other way to publish an app to their stores**.
 * Alternatively, we offer a <a href="https://www.worona.org/publish/">Publish to the Stores Service</a>, where you don’t have to deal with the process. 
 
-<h2>See an example</h2>
+<h3>See an example</h3>
 
 If you want to see how this looks like just check our demo App:
 
@@ -33,7 +33,7 @@ If you want to see how this looks like just check our demo App:
 
 There you have our <a href="https://www.worona.org/blog" target="_blank">blog</a> converted into a native App.
 
-<h2>Push notifications and other extensions</h2>
+<h3>Push notifications and other extensions</h3>
 
 We are developping a set of <a href="https://www.worona.org/extensions" target="_blank">Extensions</a> to give extra powers to your App.
 
@@ -43,13 +43,13 @@ We are developping a set of <a href="https://www.worona.org/extensions" target="
 
 
 
-<h2>Device Support (Smartphones & Tablets)</h2>
+<h3>Device Support (Smartphones & Tablets)</h3>
 
 Our App works in iOS and Android, it also looks great in phones and tablets. We have tested it in: iOS 7 (iPhone and iPad), iOS 8 (iPhone and iPad), Android 4.0, Android 4.1 and Android 4.4. 
 
 If you detect any problem with other devices o platforms, please drop us a line at <a href="mailto:hello@worona.org">hello@worona.org</a>
 
-<h2>Roadmap</h2>
+<h3>Roadmap</h3>
 
 For the moment we only support "posts", but we know that "custom content" and "pages" are really important for you. Our plan is to support them before we launch the 1.0 version.
 
@@ -61,7 +61,7 @@ Our plans:
 
 If you need any of these features before we finish them, write us. We will guide you through the process of adapting the App to your needs.
 
-<h2>Technical Details</h2>
+<h3>Technical Details</h3>
 
 Worona is an open source WordPress plugin that enables users to convert their WordPress Blog into a native mobile App. Worona is divided into 2 different parts: the WordPress plugin itself, which prepares the content of your WordPress site to be sent to the app, and the native app coded using Corona SDK.
 
