@@ -3,7 +3,7 @@
 Plugin Name: Worona
 Plugin URI: http://www.worona.org/
 Description: Turn your WordPress site into a native iOS, Android and Windows Phone App.
-Version: 0.7
+Version: 0.7.1
 Author: Benuit
 Author URI: http://www.benuit.com/
 License: GPL v3
@@ -16,8 +16,8 @@ class worona
 {
 	// vars
 	var $settings;
-		
-	
+
+
 	/*
 	*  Constructor
 	*
@@ -30,15 +30,22 @@ class worona
 	*  @param	N/A
 	*  @return	N/A
 	*/
-	
+
 	function __construct()
-	{	
+	{
 		// actions
 		add_action('init', array($this, 'init'), 1);
 		add_action('admin_menu', array($this, 'worona_admin_actions'));
 
 		// filters
 		add_filter( 'json_prepare_post',  array($this, 'add_worona_content_to_api'), 10, 3 );
+
+		// if WP-API is not active, include it
+		if ( !in_array( 'json-rest-api/plugin.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+			include_once( trailingslashit( plugin_dir_path( __FILE__ ) ) . 'json-rest-api/plugin.php' );
+		} else {
+			deactivate_plugins('json-rest-api/plugin.php');
+		}
 	}
 
 	/*
@@ -58,9 +65,9 @@ class worona
 	function init()
 	{
 		// requires
-		
+
 	}
-	
+
 	/*
 	*  worona_admin_actions
 	*
@@ -103,7 +110,7 @@ class worona
 
 	function worona_admin() {
 		wp_register_style('worona_plugin_css', plugins_url('/assets/css/worona-plugin.css',__FILE__ ));
-		wp_enqueue_style('worona_plugin_css');		
+		wp_enqueue_style('worona_plugin_css');
 	    include('admin/worona_admin_page.php');
 	}
 
@@ -120,7 +127,7 @@ class worona
 	*  @param	N/A
 	*  @return	N/A
 	*/
-	
+
 	function add_worona_content_to_api( $_post, $post, $context ) {
 
 	    // get all the fields of this post from Advanced Custom Fields
@@ -129,11 +136,11 @@ class worona
 	    	$fields = get_fields( $post['ID'] );
 	    	$_post['worona_content']['acf'] = $fields;
 	    }
-  
-	    // add the html content of the post to worona_content	    
+
+	    // add the html content of the post to worona_content
 	    $html = str_replace( PHP_EOL, '', wpautop( strip_tags( do_shortcode( $post['post_content'] ), '<h1><h2><h3><h4><h5><h6><img><p><ul><li><a><strong>'), false ) );
 	    $_post['worona_content']['html'] = apply_filters( "worona_prepare_html", $html );
-	    
+
 
 	    return $_post;
 	}
@@ -158,12 +165,12 @@ class worona
 function worona()
 {
 	global $worona;
-	
+
 	if( !isset($worona) )
 	{
 		$worona = new worona();
 	}
-	
+
 	return $worona;
 }
 
